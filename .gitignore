@@ -1,0 +1,30 @@
+# Database
+backend/data/*.db
+
+# Python
+backend/__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node/Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment / Secrets
+.env
+.env.local
+.env.production
+frontend/.env.local
+frontend/.env.production
+backend/.env
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

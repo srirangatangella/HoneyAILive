@@ -1,0 +1,31 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7f1e3;
+  --foreground: #111111;
+  --panel: rgba(255, 251, 244, 0.88);
+  --border: rgba(17, 17, 17, 0.08);
+  --accent: #f4b400;
+  --accent-strong: #d78c00;
+  --success: #204038;
+  --warning: #b95c2e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top left, rgba(244, 180, 0, 0.22), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(32, 64, 56, 0.18), transparent 30%),
+    linear-gradient(135deg, #fcf7ec 0%, #f2ead7 100%);
+}
+
+::selection {
+  background: rgba(244, 180, 0, 0.35);
+}
